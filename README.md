@@ -1,66 +1,122 @@
-# Klipper-Makros & Ressourcen
+Klipper-Makros & Ressourcen
 
-> Soll werden: Ein umfassendes Nachschlagewerk für Klipper – Makros, Tutorials und externe Ressourcen an einem Ort.
+Hier findest du meinen Klipper-Kauderwelsch, der sich im Laufe der Zeit angesammelt hat – und der hier ganz sicher munter weiterwachsen wird.
 
-## 📖 Inhaltsverzeichnis
-1. [Einleitung](#einleitung)
-2. [Ressourcen-Übersicht](#ressourcen-übersicht)
-3. [Makrosammlung](#makrosammlung)
-4. [Tutorials](#tutorials)
-5. [Beispiele](#beispiele)
-6. [Lizenz & Mitwirken](#lizenz--mitwirken)
+Die Tools, die ich erwähnt habe (BLTouch, das Clicky-Gedöns), haben wir ausprobiert. Sie funktionieren zwar, aber am Ende bin ich immer wieder bei <a href="https://github.com/john30/klipper_cartographer" target="_blank" rel="noopener noreferrer">Cartographer</a> gelandet.
 
----
+Warum? Ganz einfach: Es passt immer – egal, ob du die Nozzle wechselst oder die Plate tauscht.
 
-## Einleitung
-Dieses Repository bündelt alle gefundenen wichtigen **Dokumentationen**, **Community-Beiträge** und **G-Code-Makros**, die man für ein Klipper-Projekt braucht. 
-Egal ob Einsteiger oder Profi, hier findest du meinen Klipper Kauderwelsch der sich über die zeit angesammelt hat und wird.
-- Verlinkungen zu offiziellen Dokus und Foren
-- Kuratierte Makros mit Beschreibung und Quelle
-- Schritt-für-Schritt-Tutorials für Slicer-Variablen
-- Beispiel-G-Codes für Workflows
+Außerdem ist die Dokumentation von Cartographer mindestens genauso ausführlich wie die offizielle Klipper-Doku.
 
----
+Falls du einmal nicht weiterkommst oder etwas nicht findest, lohnt sich ein Blick auf die Klipper-Discord-Server. Dort gibt es jede Menge Experten, die dir sicher weiterhelfen. 😉
 
-## Ressourcen-Übersicht
-Im Ordner `docs/Resources.md` findest du eine thematisch sortierte Liste:
-- 🌐 Offizielle Dokumentation & Interfaces (Klipper, Mainsail, Fluidd, Moonraker, KlipperScreen, CAN-Bus)
-- 🧰 VzBoT CoreXY-Drucker
-- 🛠️ Voron Community-Plattform
-- 🔧 CPAP Fan & Flaps Projekte
-- 📁 GitHub-Stars & Makrosammlungen
-- 📑 Weitere Referenzlinks (Hardware, Tools, Theorie, Fehlerbehebung)
+📖 Inhaltsverzeichnis
 
----
+1. Einleitung
 
-## Makrosammlung (ongoing)
-Alle Makros liegen in `macros/printer_macros.cfg`. Highlights:
-- **WIPE_LINE**, **RETRACT**, **UNRETRACT**, **G27** für die Druckvorbereitung
-- **FLAP_CONTROL**, **FLAP_OPEN**, **FLAP_CLOSE** für CPAP-Lüfterklappen
-- Parameter-gesteuerte Abläufe über Slicer-Variablen
+
+2. Ressourcen-Übersicht
+
+
+3. Makrosammlung
+
+
+4. Tutorials
+
+
+5. Beispiele
+
+
+6. Lizenz & Mitwirken
+
+
+
 
 ---
 
-## Tutorials
-Detaillierte Anleitungen:
-- `docs/Tutorial_Slicer_Variables.md` zeigt dir, wie du **Slicer-Platzhalter** (Cura, PrusaSlicer) an Klipper-Makros übergibst. (Orca folgt)
+Einleitung
+
+Dieses Repository bündelt alles, was du für dein Klipper-Projekt brauchst:
+
+Kuratierte Makros mit Beschreibung, Code und Quelle
+
+Thematisch sortierte Ressourcen-Links (Dokumentationen, Community, Hardware, Tools)
+
+Schritt-für-Schritt-Tutorials für Slicer-Variablen und Makro-Integration
+
+Beispiel-G-Codes für den direkten Einsatz
+
+
 
 ---
 
-## Beispiele (werden noch erweitert)
-Im Ordner `examples/` findest du:
-- `start_print_example.gcode`: Beispiel-Startcode, der das START_PRINT-Makro aufruft.
+Ressourcen-Übersicht
+
+Die vollständige Liste aller externen Links findest du in docs/Resources.md:
+
+🌐 Offizielle Dokumentation & Interfaces
+
+🧰 VzBoT CoreXY-Drucker-Quellen
+
+🛠️ Voron Community-Links
+
+🔧 CPAP Fan & Flaps Projekte
+
+📁 GitHub Stars & Makrosammlungen
+
+📑 Weitere Referenzen (Hardware, Theorie, Troubleshooting)
+
+
 
 ---
 
-## Lizenz & Mitwirken
-- **Lizenz:** Dieses Projekt steht unter **GPLv3** (siehe `LICENSE`).
-- Beiträge willkommen: Melde Bugs oder neue Makros via Issues! Schau in `CONTRIBUTING.md` für Richtlinien.
+Makrosammlung
 
-```
+Alle Makros liegen in macros/printer_macros.cfg. Darin enthalten sind:
+
+WIPE_LINE, RETRACT, UNRETRACT, G27 – dein Druckbett- und Kopf-Setup
+
+FLAP_CONTROL, FLAP_OPEN, FLAP_CLOSE – CPAP-Lüfterklappen-Management
+
+Parameter-gesteuerte Abläufe dank Slicer-Variablen (Material, Temperaturen, PA)
+
+
+
+---
+
+Tutorials
+
+Die detaillierten Anleitungen findest du in docs/Tutorial_Slicer_Variables.md:
+
+Wie du Slicer-Platzhalter (Cura, PrusaSlicer) an Klipper-Makros übergibst
+
+Best Practices für automatisches Vorheizen, Heat Creep-Vermeidung und mehr
+
+
+
+---
+
+Beispiele
+
+Im Ordner examples/ gibt es:
+
+start_print_example.gcode: Beispiel-Startcode, der das START_PRINT-Makro aufruft
+
+
+
+---
+
+Lizenz & Mitwirken
+
+Lizenz: Siehe LICENSE (GPLv3)
+
+Contributing: Schau in CONTRIBUTING.md, um Bugs zu melden oder neue Makros beizusteuern
+
+
 [include macros/printer_macros.cfg]
-```
+
 
 ---
 
-*Viel Spaß und perfekte Druckergebnisse!*
+Viel Spaß und immer eine saubere Düse!
+
