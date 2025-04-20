@@ -11,6 +11,13 @@ Außerdem ist die Dokumentation von Cartographer mindestens genauso ausführlich
 Falls du einmal nicht weiterkommst oder etwas nicht findest, lohnt sich ein Blick auf die Klipper-Discord-Server. Dort gibt es jede Menge Experten, die dir sicher weiterhelfen. 😉
 
 ## 📖 Inhaltsverzeichnis
+
+👉 **Schnellnavigation:**
+- 📚 [Zur Ressourcenübersicht](#ressourcen-übersicht)
+- 🧩 [Zur Makrosammlung](#makrosammlung)
+- 🧠 [Direkt zu den Tutorials](#tutorials)
+- 🧪 [Zu den Beispielen](#beispiele)
+- 📜 [Zur Lizenz & Mitwirken](#lizenz--mitwirken)
 1. [Einleitung](#einleitung)
 2. [Ressourcen-Übersicht](#ressourcen-übersicht)
 3. [Makrosammlung](#makrosammlung)
@@ -32,9 +39,9 @@ Dieses Repository bündelt alles, was du für dein Klipper-Projekt brauchst:
 ## Ressourcen-Übersicht
 
 **Interne Verweise:**
-- 📑 [Makrosammlung (printer_macros.cfg)](../macros/printer_macros.cfg)
-- 📖 [Slicer-Variablen Tutorial](Tutorial_Slicer_Variables.md)
-- 🌍 [Diese Seite (Resources.md)](Resources.md)
+- 📑 [Makrosammlung (printer_macros.cfg)](macros/printer_macros.cfg)
+- 📖 [Slicer-Variablen Tutorial](docs/Tutorial_Slicer_Variables.md)
+- 🌍 [Diese Seite (Resources.md)](docs/Resources.md)
 
 Die vollständige Liste aller externen Links findest du in `docs/Resources.md`:
 - 🌐 **Offizielle Dokumentation** & Interfaces
