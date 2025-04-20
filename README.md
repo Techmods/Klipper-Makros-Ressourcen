@@ -2,7 +2,7 @@ Klipper-Makros & Ressourcen
 
 Hier findest du meinen Klipper-Kauderwelsch, der sich im Laufe der Zeit angesammelt hat – und der hier ganz sicher munter weiterwachsen wird.
 
-Die Tools, die ich erwähnt habe (BLTouch, das Clicky-Gedöns), haben wir ausprobiert. Sie funktionieren zwar, aber am Ende bin ich immer wieder bei <a href="https://github.com/john30/klipper_cartographer" target="_blank" rel="noopener noreferrer">Cartographer</a> gelandet.
+Die Tools, die ich erwähnt habe (BLTouch, das Clicky-Gedöns), habe ich ausprobiert. Sie funktionieren zwar, aber am Ende bin ich immer wieder bei <a href="https://github.com/john30/klipper_cartographer" target="_blank" rel="noopener noreferrer">Cartographer</a> gelandet.
 
 Warum? Ganz einfach: Es passt immer – egal, ob du die Nozzle wechselst oder die Plate tauscht.
 
