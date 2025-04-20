@@ -2,13 +2,15 @@
 
 Hier findest du meinen **Klipper-Kauderwelsch**, der sich im Laufe der Zeit angesammelt hat – und der hier ganz sicher munter weiterwachsen wird.
 
-Die Tools, die ich erwähnt habe (BLTouch, das Clicky-Gedöns), haben wir ausprobiert. Sie funktionieren zwar, aber am Ende bin ich immer wieder bei **<a href="https://cartographer3d.com" target="_blank" rel="noopener noreferrer">Cartographer</a>** gelandet.
+Tipps: 
+(BLTouch, Clicky)
+Sie funktionieren zwar, aber am Ende bin ich bei **<a href="https://cartographer3d.com" target="_blank" rel="noopener noreferrer">Cartographer</a>** gelandet.
+Ich feier das teil! Es passt immer – egal, ob du die Nozzle wechselst oder die Plate tauscht.
+Außerdem ist die Dokumentation von Cartographer mindestens genauso ausführlich und gut wie die offizielle Klipper-Doku.
 
-Warum? Ganz einfach: Es passt immer – egal, ob du die Nozzle wechselst oder die Plate tauscht.
-
-Außerdem ist die Dokumentation von Cartographer mindestens genauso ausführlich wie die offizielle Klipper-Doku.
-
-Falls du einmal nicht weiterkommst oder etwas nicht findest, lohnt sich ein Blick auf die Klipper-Discord-Server. Dort gibt es jede Menge Experten, die dir sicher weiterhelfen. 😉
+Falls du einmal bei irgendetwas nicht weiterkommst, oder etwas nicht findest, 
+lohnt sich immer ein Blick auf die Projekt-Discord-Server. 
+Dort gibt es jede Menge Experten, die dir sicher weiterhelfen. 😉
 
 ## 📖 Inhaltsverzeichnis
 
@@ -78,10 +80,8 @@ Im Ordner **`examples/`** gibt es:
 - **Lizenz:** Siehe `LICENSE` (GPLv3)
 - **Contributing:** Schau in `CONTRIBUTING.md`, um Bugs zu melden oder neue Makros beizusteuern
 
-```
-[include macros/printer_macros.cfg]
-```
-
 ---
+
+
 
 *Viel Spaß und immer eine saubere Düse!*
