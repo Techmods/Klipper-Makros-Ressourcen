@@ -52,6 +52,15 @@ Beispiel-G-Codes für den direkten Einsatz
 
 Ressourcen-Übersicht
 
+Interne Verweise:
+
+📑 Makrosammlung (printer_macros.cfg)
+
+📖 Slicer-Variablen Tutorial
+
+🌍 Diese Seite (Resources.md)
+
+
 Die vollständige Liste aller externen Links findest du in docs/Resources.md:
 
 🌐 Offizielle Dokumentation & Interfaces
